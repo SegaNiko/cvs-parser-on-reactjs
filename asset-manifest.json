@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cvs-parser-on-reactjs/static/css/main.b66913bb.chunk.css",
+    "main.js": "/cvs-parser-on-reactjs/static/js/main.614e502c.chunk.js",
+    "main.js.map": "/cvs-parser-on-reactjs/static/js/main.614e502c.chunk.js.map",
+    "runtime-main.js": "/cvs-parser-on-reactjs/static/js/runtime-main.8eaffef0.js",
+    "runtime-main.js.map": "/cvs-parser-on-reactjs/static/js/runtime-main.8eaffef0.js.map",
+    "static/js/2.804d1c05.chunk.js": "/cvs-parser-on-reactjs/static/js/2.804d1c05.chunk.js",
+    "static/js/2.804d1c05.chunk.js.map": "/cvs-parser-on-reactjs/static/js/2.804d1c05.chunk.js.map",
+    "index.html": "/cvs-parser-on-reactjs/index.html",
+    "static/css/main.b66913bb.chunk.css.map": "/cvs-parser-on-reactjs/static/css/main.b66913bb.chunk.css.map",
+    "static/js/2.804d1c05.chunk.js.LICENSE.txt": "/cvs-parser-on-reactjs/static/js/2.804d1c05.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eaffef0.js",
+    "static/js/2.804d1c05.chunk.js",
+    "static/css/main.b66913bb.chunk.css",
+    "static/js/main.614e502c.chunk.js"
+  ]
+}
