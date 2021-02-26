@@ -42,14 +42,15 @@ const App = () => {
     })
     //    Test result
     console.log(checkDuplicate)
-    // create and paint table
+    // create and rendering table
     return <Table arr={checkDuplicate} />
   }
 
   return (
     <>  
-      <header><h1 className="green accent-2">Demo React Csv Parse</h1> </header>
-      
+      <header>
+        <h1 className="green accent-2">Demo React Csv Parse</h1> 
+      </header>
       <div className="container">    
         {/* Component-parser  */}
         <CsvParse
@@ -66,7 +67,7 @@ const App = () => {
               </label>
               </div>)}}
         />
-        {/* Painted content  */}
+        {/* Rendering content  error or component */}
        {!error && data ? convert(data) : error ? (
        <div className="error">
          <h3 className="error__title">Error: file not parsed</h3>
