@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Table = ({arr}) => {
+import "./index.css"
+
+export const Table = ({arr}) => {
   return (
     <table className="table">
       <thead>
@@ -46,4 +48,3 @@ Table.propTypes = {
   arr: PropTypes.array.isRequired
 }
 
-export default Table;

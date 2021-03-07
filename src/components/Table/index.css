@@ -1,0 +1,89 @@
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+  margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.table th {
+	font-weight: bold;
+  color:white;
+	padding: 5px;
+  background: #1bbc9b;
+	border: 1px solid #dddddd;
+}
+
+.table__td {
+  text-align: center;
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.table__td-err {
+  text-align: center;
+  border: 1px solid #dddddd;
+  background-color: #ffcdd2;
+  padding: 5px;
+}
+
+@media only screen and (max-width : 1280px) {
+	.table {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width : 1024px) {
+	.table {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width : 768px)  {
+	.table {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width : 600px)  {
+	.table {
+		font-size: 9px;
+	}
+	.table th {
+		padding: 3px;
+	}
+	.table__td {
+		padding: 3px;
+	}
+	.table__td-err {
+		padding: 3px;
+	}
+}
+@media only screen and (max-width : 480px)  {
+	.table {
+		font-size: 6px;
+	}
+	
+.table th {
+	padding: 2px;
+}
+.table__td {
+	padding: 2px;
+}
+.table__td-err {
+	padding: 2px;
+}
+}
+@media only screen and (max-width : 375px)  {
+	.table {
+		font-size: 4px;
+	}
+	
+.table th {
+	padding: 2px;
+}
+.table__td {
+	padding: 2px;
+}
+.table__td-err {
+	padding: 2px;
+}
+}
