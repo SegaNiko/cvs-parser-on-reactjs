@@ -1,6 +1,14 @@
 const generateObj = (value, hasErr) => {
   return {value: value.trim(), hasError: hasErr}
 }
+const decimalCount = (number) => {
+  const numberAsString = number.toString();
+  if (numberAsString.includes('.')) {
+    
+    return Number(numberAsString).toFixed(2)
+  }
+  return +numberAsString;
+}
 
 export const validation = (key, value) => { 
        // eslint-disable-next-line no-useless-escape
@@ -40,9 +48,9 @@ export const validation = (key, value) => {
       } else  return generateObj(value, true)
      
     case 'YearlyIncome': 
-      if (value < 1000000) {
-        return {value: value.trim().substr(0,8), hasError: false }
-      } else return {value: value.trim().substr(0,8), hasError: true }
+      if (value < 1000000 && value >= 0) {
+        return {value: decimalCount(value), hasError: false }
+      } else return {value: decimalCount(value), hasError: true }
       
     case 'Haschildren' :
       if (value.toLowerCase() === "false" || value === "") {
@@ -79,8 +87,7 @@ export const checkDuplicate = (arr) => {
 
     for (let i = 0; i < arr.length ; i++ ) {
       if (arr[i] !== item) {
-        if (arr[i].FirstName.value === item.FirstName.value || 
-          arr[i].Phone.value === item.Phone.value || 
+        if (arr[i].Phone.value === item.Phone.value || 
           arr[i].Email.value.toLowerCase() === item.Email.value.toLowerCase()){
             item.duplicate = [...item.duplicate,arr[i].id]
         }
