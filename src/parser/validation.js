@@ -3,9 +3,11 @@ const generateObj = (value, hasErr) => {
 }
 const decimalCount = (number) => {
   const numberAsString = number.toString();
-  if (numberAsString.includes('.')) {
-    
+  if (numberAsString.includes('.')) { 
     return Number(numberAsString).toFixed(2)
+  }
+  if (isNaN(+numberAsString)){
+    return ""
   }
   return +numberAsString;
 }
