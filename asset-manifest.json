@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/csv-parser-on-reactjs/static/css/main.2351a740.chunk.css",
-    "main.js": "/csv-parser-on-reactjs/static/js/main.e22de801.chunk.js",
-    "main.js.map": "/csv-parser-on-reactjs/static/js/main.e22de801.chunk.js.map",
+    "main.css": "/csv-parser-on-reactjs/static/css/main.309f7014.chunk.css",
+    "main.js": "/csv-parser-on-reactjs/static/js/main.0a062d95.chunk.js",
+    "main.js.map": "/csv-parser-on-reactjs/static/js/main.0a062d95.chunk.js.map",
     "runtime-main.js": "/csv-parser-on-reactjs/static/js/runtime-main.d9701329.js",
     "runtime-main.js.map": "/csv-parser-on-reactjs/static/js/runtime-main.d9701329.js.map",
     "static/js/2.38c32250.chunk.js": "/csv-parser-on-reactjs/static/js/2.38c32250.chunk.js",
     "static/js/2.38c32250.chunk.js.map": "/csv-parser-on-reactjs/static/js/2.38c32250.chunk.js.map",
     "index.html": "/csv-parser-on-reactjs/index.html",
-    "static/css/main.2351a740.chunk.css.map": "/csv-parser-on-reactjs/static/css/main.2351a740.chunk.css.map",
+    "static/css/main.309f7014.chunk.css.map": "/csv-parser-on-reactjs/static/css/main.309f7014.chunk.css.map",
     "static/js/2.38c32250.chunk.js.LICENSE.txt": "/csv-parser-on-reactjs/static/js/2.38c32250.chunk.js.LICENSE.txt",
     "static/media/arhimed.eabcbf5b.jpg": "/csv-parser-on-reactjs/static/media/arhimed.eabcbf5b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d9701329.js",
     "static/js/2.38c32250.chunk.js",
-    "static/css/main.2351a740.chunk.css",
-    "static/js/main.e22de801.chunk.js"
+    "static/css/main.309f7014.chunk.css",
+    "static/js/main.0a062d95.chunk.js"
   ]
 }
